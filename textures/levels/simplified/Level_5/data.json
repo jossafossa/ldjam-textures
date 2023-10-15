@@ -1,0 +1,27 @@
+{
+	"identifier": "Level_5",
+	"uniqueIdentifer": "d9b27ba0-6280-11ee-ab9e-89fea34a2fe4",
+	"x": 8,
+	"y": 296,
+	"width": 320,
+	"height": 240,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Grass.png",
+		"Church_tiles_base.png",
+		"Church_tiles.png",
+		"Dirt.png",
+		"Path.png",
+		"Pebbles.png",
+		"Walls.png",
+		"WallsDark.png",
+		"Torches.png",
+		"Stone_walls.png",
+		"Big.png",
+		"Gravestones.png",
+		"General_walls.png"
+	],
+	"entities" : {}
+}

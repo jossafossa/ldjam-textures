@@ -10,6 +10,8 @@
 	"customFields" : {},
 	"layers": [
 		"Grass.png",
+		"Church_tiles_base.png",
+		"Church_tiles.png",
 		"Dirt.png",
 		"Path.png",
 		"Pebbles.png",
@@ -18,7 +20,8 @@
 		"Torches.png",
 		"Stone_walls.png",
 		"Big.png",
-		"Gravestones.png"
+		"Gravestones.png",
+		"General_walls.png"
 	],
 	"entities" : {}
 }
