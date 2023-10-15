@@ -1,0 +1,19 @@
+{
+  "name": "textures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "base": "node slices.js -i ./../base.aseprite -o ./../output/base/",
+    "watch": "concurrently --kill-others \"npm run base\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "minimist": "^1.2.7"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
