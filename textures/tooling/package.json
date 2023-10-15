@@ -1,0 +1,24 @@
+{
+  "name": "textures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "levels": "node slices.js -i ./../levels.aseprite -o ./../sprites/levels/",
+    "objects": "node slices.js -i ./../objects.aseprite -o ./../sprites/objects/",
+    "bodyparts": "node slices.js -i ./../bodyparts.aseprite -o ./../sprites/bodyparts/",
+    "ldtk": "node slices.js -i ./../ldtk.aseprite -o ./../sprites/ldtk/",
+    "ui": "node slices.js -i ./../ui.aseprite -o ./../sprites/ui/",
+    "characters": "node slices.js -i ./../characters.aseprite -o ./../sprites/characters/",
+    "watch": "concurrently --kill-others \"npm run bodyparts\" \"npm run ui\"  \"npm run objects\"  \"npm run characters\" \"npm run ldtk\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "minimist": "^1.2.7"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

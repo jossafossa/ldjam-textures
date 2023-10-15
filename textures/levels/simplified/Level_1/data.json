@@ -1,0 +1,24 @@
+{
+	"identifier": "Level_1",
+	"uniqueIdentifer": "b2050c30-3b70-11ee-b23e-b310c2dfed37",
+	"x": 5,
+	"y": 2,
+	"width": 320,
+	"height": 240,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Grass.png",
+		"Dirt.png",
+		"Path.png",
+		"Pebbles.png",
+		"Walls.png",
+		"WallsDark.png",
+		"Torches.png",
+		"Stone_walls.png",
+		"Big.png",
+		"Gravestones.png"
+	],
+	"entities" : {}
+}
